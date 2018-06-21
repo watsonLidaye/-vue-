@@ -1,0 +1,118 @@
+#hotel{
+	width: 7.5rem;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	height: 3.8rem;
+	position: relative;
+}
+.header_number{
+	width: .85rem;
+	height: .34rem;
+	position: absolute;
+	bottom: .25rem;
+	right: .35rem;
+	border-radius: .18rem;
+	background: rgba(0,0,0,.6);
+	z-index: 100;
+	font-size: .24rem;
+	color: #fff;
+	line-height: .34rem;
+}
+.simple_info{
+	width: 100%;
+	box-sizing: border-box;
+	padding: .4rem .3rem .6rem;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	margin-bottom: .2rem;
+}
+.simple_item{
+	width: 50%;
+	box-sizing: border-box;
+	padding-left: .3rem;
+}
+.simple_item_left{
+	border-right: .01rem solid #c9c9c9;
+	margin-left: 0rem;
+}
+.simple_title{
+	font-size: .24rem;
+	color: #333;
+	text-align: left;
+	margin-bottom: .4rem;
+}
+.simple_title>span:last-child{
+	font-size: .3rem;
+	color: #000;
+	font-weight: bold;
+	margin-left: .3rem;
+}
+.simple_title:last-child{
+	margin: 0
+}
+.simple_title2{
+	font-size: .24rem;
+	color: #333;
+	text-align: left;
+	margin-bottom: .4rem;
+}
+.simple_title2>span:last-child{
+	font-size: .3rem;
+	color: #000;
+	font-weight: bold;
+	margin-left: .3rem;
+}
+.simple_title2:last-child{
+	margin: 0
+}
+.detail_info{
+	width: 100%;
+	box-sizing: border-box;
+	padding: .3rem .98rem 0 .32rem;
+	background: #fff;
+	text-align: left;
+	margin-bottom: 1.3rem;
+}
+.detail_title{
+	font-size: .3rem;
+	color: #333;
+	font-weight: bold;
+	padding-bottom: .15rem;
+}
+.detail_content{
+	font-size: .24rem;
+	line-height: .26rem;
+	height: .52rem;
+	color: #333;
+	padding-bottom: .35rem;
+}
+.buy_plate{
+	width: 7.5rem;
+	height: .9rem;
+	position:fixed;
+	left: 0rem;
+	bottom: 0rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.price{
+	color: #9f3c79;
+	font-size: .48rem;
+	margin-left: .3rem;
+}
+.buy_logo{
+	font-size: .3rem;
+}
+.buy_btn{
+	width: 3rem;
+	background: #9f3c79;
+	color: #fff;
+	font-size: .36rem;
+	font-weight: bold;
+	line-height: .9rem;
+}

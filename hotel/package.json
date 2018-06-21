@@ -12,6 +12,7 @@
   "dependencies": {
     "better-scroll": "^1.12.1",
     "vue": "^2.5.2",
+    "vue-layer-mobile": "^1.2.0",
     "vue-mobile-calendar": "^2.1.0",
     "vue-router": "^3.0.1",
     "vue-swiper-component": "^2.1.2"
