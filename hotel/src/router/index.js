@@ -5,6 +5,7 @@ import person from '@/components/pages/person'
 import hotel from '@/components/pages/hotel/hotel'
 import bindPhone from '@/components/pages/bindPhone/bindPhone'
 import order from '@/components/pages/order/order'
+import introduce from '@/components/pages/introduce/introduce'
 
 Vue.use(Router)
 
@@ -35,5 +36,9 @@ export default new Router({
 		path: '/order',
 		name: 'order',
 		component: order
+	}, {
+		path: '/introduce',
+		name: 'introduce',
+		component: introduce
 	}, ]
 })

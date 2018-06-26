@@ -249,7 +249,7 @@
 		<!-- 头部信息列表 -->
 		<div class="header_plate">
 			<div class="header_hotel_info">
-				<div class="title_info">大成国际酒店</div>
+				<div class="title_info" @click="jump()">大成国际酒店</div>
 				<img class="header_hotel_img" src="../../assets/01.png">
 			</div>
 			<div class="header_hotel_info ">
@@ -392,6 +392,11 @@
 				if(this.out_time.time&&this.in_time.time){
 					this.days=(this.out_time.time-this.in_time.time)/3600/1000/24
 				}
+			},
+			jump(){
+				this.$router.push({
+					name:"introduce"
+				})
 			}
   		}
 	}

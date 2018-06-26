@@ -1,0 +1,166 @@
+#order{
+	width: 7.5rem;
+	margin: 0 auto;
+}
+img{
+	background: transparent;
+}
+.header{
+	width: 100%;
+	height: 2.85rem;
+	background: #9f3c79;
+	padding-top: .33rem;
+	box-sizing: border-box;
+}
+.header_plate{
+	width: 6.9rem;
+	height: 2.22rem;
+	border-radius: .06rem;
+	background: #fff;
+	margin: 0 auto;
+	text-align: left;
+	display: flex;
+  	justify-content: space-between;
+  	flex-direction: column;
+  	padding: 0 .3rem;
+  	box-sizing: border-box;
+}
+.header_plate_title{
+	padding-top: .3rem;
+	font-size: .3rem;
+	font-weight: bold;
+}
+.header_plate_select{
+	width: 100%;
+	  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .26rem;
+  position: relative;
+}
+
+.in{
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+.header_plate_img{
+	width: .27rem;
+	height: .25rem;
+	margin-right: .1rem;
+}
+.header_plate_select>.totall{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+}
+.grap_text{
+	color: #666;
+}
+.header_plate_bottom{
+	font-size: .26rem;
+	color: #666;
+	padding-bottom: .36rem;
+}
+.form{
+	margin-bottom: .3rem;
+}
+.form_item{
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: .28rem;
+	color: #333;
+	padding: 0 .3rem;
+	border-bottom: .01rem solid #ddd;
+}
+.add_plate{
+	display: flex;
+	align-items: center;
+	border: .01rem solid #ddd;
+	border-radius: .04rem;
+}
+.add_plate>div{
+	width: .6rem;
+	height: .6rem;
+	line-height: .6rem;
+	border-right: .01rem solid #ddd
+}
+.form_input{
+	text-align: right;
+	border: 0
+}
+.invoice{
+	width: .9rem;
+	height: .5rem;
+	border-radius: .25rem;
+	line-height: .5rem;
+	background: #d2d2d2;
+	text-align: left;
+	box-sizing: border-box;
+	padding-top: .06rem;
+	padding-left: .06rem;
+	transition: all linear .1s;
+
+}
+.invoice_item{
+	width: .38rem;
+	height: .38rem;
+	background: #fff;
+	border-radius: 50%;
+}
+.active{
+	background: #9f3c79;
+	padding-left: .46rem;
+}
+.buy_plate{
+	width: 100%;
+	height: .9rem;
+	position:fixed;
+	left: 0rem;
+	bottom: 0rem;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.price{
+	color: #9f3c79;
+	font-size: .48rem;
+	margin-left: .3rem;
+}
+.buy_logo{
+	font-size: .3rem;
+}
+.buy_btn{
+	width: 3rem;
+	background: #9f3c79;
+	color: #fff;
+	font-size: .36rem;
+	font-weight: bold;
+	line-height: .9rem;
+}
+.info{
+	width: 100%;
+	padding:.4rem .3rem 1rem;
+		font-size: .3rem;
+	color: #666;
+	text-align: left;
+	box-sizing: border-box;
+}
+.info_title{
+	display: flex;
+	align-items: center;
+
+	margin-bottom: .35rem;
+}
+.info_title img{
+	width: .36rem;
+	height: .36rem;
+	margin-right: .1rem;
+}
